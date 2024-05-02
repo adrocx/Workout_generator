@@ -24,14 +24,12 @@ model = genai.GenerativeModel(
 
 # Sample fitness prompts
 fitness_prompts = {
-    ("sedentary", "fitness"): "Create seperate tables to generate a personalized fitness workout and diet plan for a sedentary lifestyle.",
-    (
-    "sedentary", "weight_loss"): "Create seperate tables table to generate a personalized weight loss workout and diet plan for a sedentary lifestyle.",
-    (
-    "sedentary", "muscle_gain"): "Create seperate tables table to generate a personalized muscle gain workout and diet plan for a sedentary lifestyle.",
-    ("active", "fitness"): "Create seperate tables table to generate a personalized fitness workout and diet plan for an active lifestyle.",
-    ("active", "weight_loss"): "Create seperate tables table to generate a personalized weight loss workout and diet plan for an active lifestyle.",
-    ("active", "muscle_gain"): "Create seperate tables table to generate a personalized muscle gain workout and diet plan for an active lifestyle.",
+    ("sedentary", "fitness"): "Generate an in-depth table for workout plan and an in-depth table diet plan in a tabular format for a sedentary lifestyle.",
+    ("sedentary", "weight_loss"): "Generate an in-depth table for workout plan and an in-depth table diet plan in a tabular format for weight loss in a sedentary lifestyle.",
+    ("sedentary", "muscle_gain"): "Generate an in-depth table for workout plan and an in-depth table diet plan in a tabular format for muscle gain in a sedentary lifestyle.",
+    ("active", "fitness"): "Generate an in-depth table for workout plan and an in-depth table diet plan in a tabular format for an active lifestyle.",
+    ("active", "weight_loss"): "Generate an in-depth table for workout plan and an in-depth table diet plan in a tabular format for weight loss in an active lifestyle.",
+    ("active", "muscle_gain"): "Generate an in-depth table for workout plan and an in-depth table diet plan in a tabular format for muscle gain in an active lifestyle.",
 }
 
 
